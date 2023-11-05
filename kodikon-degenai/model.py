@@ -6,7 +6,7 @@ from inference import main
 import openai
 import pickle
 def master(query,l):
-    openai.api_key="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"
+    openai.api_key=""
 
     f=open("data.txt","rb")
     d=pickle.load(f)
